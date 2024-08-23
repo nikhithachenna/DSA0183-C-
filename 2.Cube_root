@@ -1,0 +1,18 @@
+#include <iostream>
+#include<cmath>
+using namespace std;
+int main() 
+{
+    int n;
+    cout<<"Enter a number";
+    cin>>n;
+    if(n>0)
+    {
+        cout<<cbrt(n);
+    }
+    else
+    {
+        cout<<"Enter a positive number";
+    }
+    return 0;
+}
